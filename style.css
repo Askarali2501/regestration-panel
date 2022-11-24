@@ -1,0 +1,70 @@
+*{
+    outline: none;
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+.wrapper{
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-left: 620px;
+    margin-right: 620px;
+    height: 755px;
+    border-radius: 5%;
+}
+.biography{
+    display: flex;
+    padding-left: 90px;
+}
+h4{
+    color: black;
+    margin-right: 300px;
+}
+input{
+    border-color: rgb(0, 0, 0);
+}
+input:hover{
+    border-color: chartreuse;
+}
+.name {
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+}
+.lastname{
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.email{
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+}
+.code{
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+}
+.checkbox{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    margin-right: 400px;
+    display: flex;
+}
+.btn{
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: none; 
+    background-color: rgb(23, 197, 10);
+}
+.btn:hover{
+    background-color: rgb(10, 170, 31);
+}
+ul{
+    color: rgb(213, 213, 213);
+}
